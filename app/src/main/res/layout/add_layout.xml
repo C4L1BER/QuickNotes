@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtNewNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/encodesans_bold"
+            android:justificationMode="inter_word"
+            android:text="@string/new_note"
+            android:textColor="#424242"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#00000000"
+            android:fontFamily="@font/encodesans_regular"
+            android:hint="@string/new_note_title"
+            android:inputType="textCapSentences|textMultiLine"
+            android:justificationMode="inter_word"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <EditText
+                android:id="@+id/etNote"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="18"
+                android:background="#00000000"
+                android:fontFamily="@font/encodesans_regular"
+                android:gravity="top"
+                android:hint="@string/enter_note"
+                android:inputType="textCapSentences|textMultiLine"
+                android:justificationMode="inter_word"
+                android:textSize="15sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="82">
+
+                <Button
+                    android:id="@+id/btnAdd"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btn_rounded"
+                    android:fontFamily="@font/encodesans_semibold"
+                    android:text="@string/add_note" />
+
+                <Button
+                    android:id="@+id/btnCloseAdd"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btn_rounded"
+                    android:fontFamily="@font/encodesans_semibold"
+                    android:text="@string/discard" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

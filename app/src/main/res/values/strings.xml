@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">QuickNotes</string>
+    <string name="version_no">Version: 1.0.0</string>
+    <string name="time_stamp">TimeStamp</string>
+    <string name="title">NoteTitle</string>
+    <string name="enter_note">Enter your note…</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="new_note">New Note…</string>
+    <string name="new_note_title">Enter a title…</string>
+    <string name="add_note">Add</string>
+    <string name="close">Close</string>
+    <string name="discard">Discard</string>
+    <string name="your_note">Your Note</string>
+    <string name="search">Search…</string>
+    <string name="sync">Sync</string>
+    <string name="update_note_title">Update Note…</string>
+    <string name="delete_note">Delete Note</string>
+    <string name="update_note">Update</string>
+    <string name="noNotes">No notes available… \nGo ahead, add some!</string>
+    <string name="viewNote">View Note</string>
+    <string name="noteTitle">Note Title</string>
+    <string name="noteData">Note Data</string>
+    <string name="logout">Logout</string>
+    <string name="viewAccount">View Account</string>
+    <string name="loggedInWith">You\'ve logged in with this account</string>
+</resources>
