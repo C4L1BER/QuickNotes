@@ -5,15 +5,15 @@ When the user opens the app for the first time an interactive tutorial starts, s
 
 <div>
 
-<img src="https://github.com/c-deshpande/quicknotes/blob/master/app/app-screens/Screenshot_1602294722.png" width="250" hspace="20"/>
+<img src="https://github.com/c-deshpande/quicknotes/blob/master/app/app-screens/Screenshot_1602294722.png" width="250" hspace="10"/>
 
-<img src="https://github.com/c-deshpande/quicknotes/blob/master/app/app-screens/Screenshot_1602294736.png" width="250" hspace="20"/>
+<img src="https://github.com/c-deshpande/quicknotes/blob/master/app/app-screens/Screenshot_1602294736.png" width="250" hspace="10"/>
 
-<img src="https://github.com/c-deshpande/quicknotes/blob/master/app/app-screens/Screenshot_1602294740.png" width="250"/>
+<img src="https://github.com/c-deshpande/quicknotes/blob/master/app/app-screens/Screenshot_1602294740.png" width="250" hspace="10"/>
 
 </div>
 
-User can search for various notes amongst all the other notes, 
+User can search for various notes amongst all the other notes,
 
 <div>
 
